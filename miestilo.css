@@ -1,0 +1,28 @@
+html, body, .con {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+ body {
+background-image: url("fondo.jpeg");
+object-fit: fill;
+height: 100%;
+background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+ h1 {
+     text-align: center;
+     color: #85D8EF;
+
+}
+ p {
+     text-align: right;
+ position:absolute;
+ bottom:5px;
+ right:1050      px;
+ }
+ div.button{
+     width: 33,3%;
+     margin-left: 50%;
+     transform: translate(-33%);  
+ }

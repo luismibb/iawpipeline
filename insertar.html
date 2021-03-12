@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" href="miestilo.css">
+	<title>Insertar</title>
+</head>
+<body>
+<h1>Tienda Web V1.0</h1>
+<div=contenedor></div>
+<h2>Añadir un nuevo producto</h2>
+
+<form action="insertarProducto.php" method="POST">
+  <label for="fcod">Código:</label><br><br>
+  <input type="text" id="fcod" name="fcod"><br><br>
+  <label for="fdesc">Descripción:</label><br><br>
+  <input type="text" id="fdesc" name="fdesc"><br><br>
+  <label for="fprecio">Precio:</label><br><br>
+  <input type="number" id="fprecio" name="fprecio"><br>
+  <label for="fstock">Stock:</label><br><br>
+  <input type="number" id="fstock" name="fstock"><br>
+  <br><br>
+  <input type="submit" value="Insertar">
+</form><br> 
+</div>
+<p><a href="index.html">Volver al inicio</a></p>
+</body>
+</html>

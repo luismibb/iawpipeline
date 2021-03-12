@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	<title>Buscar clientes</title>
+</head>
+<body>
+<h1>Tienda Web V2.0</h1>
+
+<h2>Búsqueda de clientes</h2>
+
+<form name="buscar" action="buscarClientes.php" method="post">
+  
+ <label for="opcion">Opciones de búsqueda </label>
+<select id="opcion" name="opcion">
+  <option value="onom" name="onom">Por nombre</option>
+  <option value="oape" name="oape">Por apellidos</option>
+  <option value="odni" name="odni">Por DNI</option>
+  <option value="omail" name="omail">Por email</option>
+</select>
+  <br>
+  <br>
+  <label for="fbus">Búsqueda:</label><br><br>
+  <input type="text" id="ftext" name="ftext"><br>
+  <br>
+  <input type="submit" value="Buscar">
+</form> 
+
+<p><a href="index.html">Volver al inicio</a></p>
+</body>
+</html>
